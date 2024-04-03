@@ -55,7 +55,7 @@ jobs:
     environment: 
       name: Production
       url: https://writeabout.net
-    needs: [test]
+    needs: [test, Load-Test]
     steps:
       - run: |
           echo "🚀 Step 1..."
