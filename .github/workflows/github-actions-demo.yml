@@ -46,9 +46,8 @@ jobs:
     steps:
     - name: Initial Log
       run: | 
-        echo |
-          "Testing..."
-          sleep 15
+        echo "Testing..."
+        sleep 15
         
   Production:
     runs-on: ubuntu-latest
